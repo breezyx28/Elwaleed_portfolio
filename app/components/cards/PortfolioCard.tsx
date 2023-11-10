@@ -23,15 +23,15 @@ let switcher = ({
   switch (dir) {
     case "rtl":
       return (
-        <div className="wrapper w-full flex items-center justify-between gap-[16x]">
+        <div className="wrapper w-full flex items-center justify-between gap-[10px]">
           <div className="w-[50%] h-full flex items-center p-[40px]">
             <div className="wrapper w-full flex flex-col gap-y-[22px]">
               <p className="text-primary text-sm capitalize">{appName}</p>
-              <p className="text-black text-3xl font-bold">{description}</p>
+              <p className="text-black text-[18px] font-bold">{description}</p>
               {button}
             </div>
           </div>
-          <div className="w-[50%] w-full h-full">
+          <div className="w-[50vw] h-full">
             <Image
               src={poster}
               width={1000}
@@ -45,8 +45,8 @@ let switcher = ({
 
     case "ltr":
       return (
-        <div className="wrapper w-full flex items-center justify-between gap-[16x]">
-          <div className="w-[50%] w-full h-full">
+        <div className="wrapper w-full flex items-center justify-between gap-[10px]">
+          <div className="w-[50vw] h-full">
             <Image
               src={poster}
               width={1000}
@@ -58,7 +58,7 @@ let switcher = ({
           <div className="w-[50%] h-full flex items-center p-[40px]">
             <div className="wrapper w-full flex flex-col gap-y-[22px]">
               <p className="text-primary text-sm capitalize">{appName}</p>
-              <p className="text-black text-3xl font-bold">{description}</p>
+              <p className="text-black text-[18px] font-bold">{description}</p>
               {button}
             </div>
           </div>
@@ -67,15 +67,15 @@ let switcher = ({
 
     default:
       return (
-        <div className="wrapper w-full flex items-center justify-between gap-[16x]">
+        <div className="wrapper w-full flex items-center justify-between gap-[10px]">
           <div className="w-[50%] h-full flex items-center p-[40px]">
             <div className="wrapper w-full flex flex-col gap-y-[22px]">
               <p className="text-primary text-sm capitalize">{appName}</p>
-              <p className="text-black text-3xl font-bold">{description}</p>
+              <p className="text-black text-[18px] font-bold">{description}</p>
               {button}
             </div>
           </div>
-          <div className="w-[50%] w-full h-full">
+          <div className="w-[50vw] h-full">
             <Image
               src={poster}
               width={1000}

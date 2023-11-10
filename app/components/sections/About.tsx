@@ -21,7 +21,7 @@ const About = () => {
             I’m constantly looking to learn new things everyday.
           </p>
           <div className="">
-            <PrimaryBtn shadowColor="#24f1c0" text="My Work" />
+            <PrimaryBtn shadowColor="bg-[#24f1c0]" text="My Work" />
           </div>
         </div>
       </div>
