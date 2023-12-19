@@ -4,10 +4,10 @@ import PrimaryBtn from "../buttons/PrimaryBtn";
 const About = () => {
   return (
     <section id="about-me" className="w-screen h-screen">
-      <div className="wrapper flex items-center gap-[200px]">
-        <div className="block-wrapper relative w-[500px] h-[500px]">
-          <div className="absolute bg-[#24f1c0] w-[500px] h-[500px] bottom-[-25px] right-[-25px]"></div>
-          <div className="absolute w-[500px] h-[500px] bg-slate-900"></div>
+      <div className="wrapper flex md:flex-row flex-col items-center md:gap-[200px] gap-[80px]">
+        <div className="block-wrapper relative md:w-[500px] md:h-[500px] w-[350px] h-[350px]">
+          <div className="absolute bg-[#24f1c0] md:w-[500px] md:h-[500px] w-[350px] h-[350px] bottom-[-25px] right-[-25px]"></div>
+          <div className="absolute md:w-[500px] md:h-[500px] w-[350px] h-[350px] bg-slate-900"></div>
         </div>
         <div className="flex flex-col gap-y-[20px]">
           <div className="text-primary text-[18px] font-semibold leading-[23.64px] capitalize">

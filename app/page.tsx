@@ -4,6 +4,7 @@ import Contacts from "./components/sections/Contact";
 import Hero from "./components/sections/Hero";
 import Portfolio from "./components/sections/Portfolio";
 import Process from "./components/sections/Process";
+import Tools from "./components/sections/Tools";
 import WhatIDo from "./components/sections/WhatIDo";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Clients />
       <Process />
       <Contacts />
+      <Tools />
     </main>
   );
 }

@@ -20,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${DM.className} overflow-x-hidden max-w-[1800px]`}>
         <UpperNav />
+        <div className="h-[88px] w-full"></div>
         {children}
       </body>
     </html>

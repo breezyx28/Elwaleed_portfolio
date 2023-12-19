@@ -6,4 +6,56 @@
   .upper-nav-links {
     @apply text-black/80 text-[17px] font-[600] leading-[23.64px] capitalize;
   }
+
+  /* upper mobile nav */
+  .mobile-responsive {
+    @apply bg-white w-screen fixed top-0 left-0 px-10 py-4 md:hidden flex justify-between items-center z-[999];
+  }
+  /* upper Auth mobile nav */
+  .auth-mobile-responsive {
+    @apply bg-white w-screen fixed top-0 left-0 px-10 py-4 md:py-0 md:hidden flex justify-between items-center z-[999];
+  }
+  /* upper mobile nav */
+  .desktop-responsive {
+    @apply hidden md:flex justify-between h-[43px] items-center;
+  }
+}
+
+.uppernav-mobile-slide-0 {
+  transform: translateX(0);
+  margin-left: -2.5rem;
+}
+.uppernav-mobile-slide-full {
+  transform: translateX(-1000px);
+}
+
+.upper-nav-link::after {
+  content: "";
+  position: relative;
+  display: flex;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #1f70c1;
+  transition: all ease-in 0.24s;
+}
+.upper-nav-link:hover::after {
+  width: 100%;
+  left: 0;
+  transition: all ease-in-out 0.24s;
+}
+
+.link-active::after {
+  content: "";
+  position: relative;
+  display: flex;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #1f70c1;
+  transition: all ease-in 0.24s;
 }

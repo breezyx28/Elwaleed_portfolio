@@ -16,8 +16,8 @@ const Process = () => {
         </div>
         <div className="h-full w-full grid grid-cols-3 gap-[32px]">
           <ProcessCard />
-          <ProcessCard />
-          <ProcessCard />
+          <ProcessCard imgSrc="/assets/icons/resize.svg" />
+          <ProcessCard imgSrc="/assets/icons/do-3.svg" />
         </div>
       </div>
     </section>

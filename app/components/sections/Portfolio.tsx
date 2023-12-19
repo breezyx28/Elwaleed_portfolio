@@ -14,7 +14,7 @@ const Portfolio = () => {
             my work
           </p>
         </div>
-        <div className="projects flex flex-col gap-y-[8px]">
+        <div className="projects flex flex-col md:gap-y-[8px] gap-y-[100px]">
           <PortfolioCard
             appName="Case Study"
             dir="rtl"

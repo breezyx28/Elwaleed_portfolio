@@ -4,8 +4,8 @@ import WhatIDoCard from "../cards/WhatIDoCard";
 const WhatIDo = () => {
   return (
     <section id="what-i-do" className="w-full h-screen">
-      <div className="wrapper w-full">
-        <div className="flex justify-between items-center">
+      <div className="wrapper w-full flex flex-col">
+        <div className="md:order-1 order-2 flex md:flex-row flex-col md:justify-between items-center">
           <WhatIDoCard
             title="UI Design"
             icon="/assets/icons/do-2.svg"
@@ -20,7 +20,7 @@ const WhatIDo = () => {
                     makes everything else work."
           />
         </div>
-        <div className="flex flex-col items-center gap-y-[80px]">
+        <div className="md:order-2 order-1 flex flex-col items-center md:gap-y-[80px] gap-y-[40px]">
           <div className="flex flex-col gap-y-[22px] items-center">
             <div className="title text-5xl text-black font-semibold">
               What I Do

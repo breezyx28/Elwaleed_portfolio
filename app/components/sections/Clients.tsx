@@ -1,5 +1,7 @@
 import React from "react";
 import ClientCard from "../cards/ClientCard";
+// import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
 const Clients = () => {
   return (
