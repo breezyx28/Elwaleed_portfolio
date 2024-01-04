@@ -1,7 +1,13 @@
 import { Star, Star1 } from "iconsax-react";
 import React from "react";
 
-const ClientCard = () => {
+type TClientCard = {
+  text: string;
+  position: string;
+  name: string;
+};
+
+const ClientCard = ({ text, position, name }: TClientCard) => {
   return (
     <div className="bg-[#f4f5f7] rounded-[18px] w-full min-h-[480px] h-full flex flex-col justify-between px-[38px] py-[28px]">
       <div className="mt-[20px] flex flex-col gap-y-[28px]">
@@ -13,24 +19,36 @@ const ClientCard = () => {
           <Star1 size={32} color={"#ffcf40"} />
         </div>
         <p className="max-w-[80%] text-black/80 text-sm font-[600] leading-[23.64px]">
-          Alwaleed was very professional freelancer as a client of his he
-          answered on time delivered on time and his work were amazing and he
-          really cared about user experience and wanted to make sure that the
-          work is perfect.And we were thankful for the opportunity to work with
-          him and we hope in the future we will have similar projects.
+          {text}
         </p>
       </div>
       <div className="flex items-center gap-x-[16px]">
         <div className="photo rounded-full w-[80px] h-[80px] bg-[#5f58f7] flex justify-center items-center">
-          <p className="text-white text-2xl font-bold">TA</p>
+          <p className="text-white text-2xl font-bold">
+            {PersonNameInitials(name)}
+          </p>
         </div>
         <div className="flex flex-col justify-center">
-          <p className="text-black/80 text-lg font-[500]">Traik Arbab</p>
-          <p className="text-black/50 text-lg font-[500]">Web Developer</p>
+          <p className="text-black/80 text-lg font-[500]">
+            {name ?? "Unknown"}
+          </p>
+          <p className="text-black/50 text-lg font-[500]">
+            {position ?? "Web Developer"}
+          </p>
         </div>
       </div>
     </div>
   );
+};
+
+const PersonNameInitials = (name: string) => {
+  const initials = name
+    .split(" ") // Split the name into an array of words
+    .slice(0, 2) // Take only the first two words
+    .map((word) => word[0]) // Take the first letter of each word
+    .join(""); // Join the letters together
+
+  return <div>{initials}</div>;
 };
 
 export default ClientCard;

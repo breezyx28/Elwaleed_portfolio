@@ -23,7 +23,12 @@ const WhatIDo = () => {
         <div className="md:order-2 order-1 flex flex-col items-center md:gap-y-[80px] gap-y-[40px]">
           <div className="flex flex-col gap-y-[22px] items-center">
             <div className="title text-5xl text-black font-semibold">
-              What I Do
+              <p>What I Do</p>
+              <img
+                src="/assets/icons/underline.svg"
+                width={210}
+                className="mt-[10px]"
+              />
             </div>
             <div className="description text-black text-sm text-center max-w-[400px]">
               There’s no style over substance here. I bring together form and
