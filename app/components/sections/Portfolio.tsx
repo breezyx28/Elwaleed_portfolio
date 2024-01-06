@@ -4,17 +4,17 @@ import PrimaryBtn from "../buttons/PrimaryBtn";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="w-full min-h-screen h-auto">
+    <section id="portfolio" className="w-full h-auto">
       <div className="wrapper flex flex-col gap-y-[28px]">
         <div className="title flex flex-col gap-y-[16px]">
           <p className="text-primary text-[18px] font-semibold capitalize">
             portfolio
           </p>
-          <p className="text-black text-5xl font-semibold capitalize">
+          <p className="text-black md:text-5xl text-4xl font-semibold capitalize">
             my work
           </p>
         </div>
-        <div className="projects flex flex-col md:gap-y-[8px] gap-y-[100px]">
+        <div className="projects flex flex-col md:gap-y-[8px] gap-y-[10px]">
           <PortfolioCard
             appName="Case Study"
             dir="rtl"

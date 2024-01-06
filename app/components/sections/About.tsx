@@ -16,7 +16,9 @@ const About = () => {
           <div className="text-primary text-[18px] font-semibold leading-[23.64px] capitalize">
             who I am
           </div>
-          <h1 className="text-black text-6xl font-semibold">About Me</h1>
+          <h1 className="text-black md:text-6xl text-4xl font-semibold">
+            About Me
+          </h1>
           <img
             src="/assets/icons/underline.svg"
             width={250}

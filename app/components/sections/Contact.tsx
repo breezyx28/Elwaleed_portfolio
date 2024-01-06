@@ -12,7 +12,7 @@ const Contacts = () => {
             <p className="text-primary text-[18px] font-semibold capitalize">
               Get in touch
             </p>
-            <p className="text-black text-5xl font-semibold capitalize">
+            <p className="text-black md:text-5xl text-4xl font-semibold capitalize">
               Contact Me
             </p>
           </div>

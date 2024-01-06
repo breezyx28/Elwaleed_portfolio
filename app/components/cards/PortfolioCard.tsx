@@ -10,7 +10,7 @@ interface IPortfolioProps {
 }
 
 const PortfolioCard = (props: IPortfolioProps) => {
-  return <div className="w-full min-h-screen">{switcher(props)}</div>;
+  return <div className="w-full py-[40px]">{switcher(props)}</div>;
 };
 
 let switcher = ({
@@ -32,11 +32,9 @@ let switcher = ({
             </div>
           </div>
           <div className="md:order-2 order-1 md:w-[50vw] w-full h-full">
-            <Image
+            <img
               src={poster}
-              width={1000}
-              height={1000}
-              className="w-full max-h-[90vh] object-cover"
+              className="w-full max-h-[90vh] md:h-[100%] h-[500px] object-cover"
               alt={appName}
             />
           </div>
@@ -47,11 +45,9 @@ let switcher = ({
       return (
         <div className="wrapper w-full flex md:flex-row flex-col items-center justify-between gap-[10px]">
           <div className="md:w-[50vw] w-full h-full">
-            <Image
+            <img
               src={poster}
-              width={1000}
-              height={1000}
-              className="md:w-[50vw] w-full max-h-[90vh] object-cover"
+              className="md:w-[50vw] w-full max-h-[90vh] md:h-[100%] h-[500px] object-cover"
               alt={appName}
             />
           </div>
@@ -76,11 +72,9 @@ let switcher = ({
             </div>
           </div>
           <div className="w-[50vw] h-full">
-            <Image
+            <img
               src={poster}
-              width={1000}
-              height={1000}
-              className="w-full max-h-[90vh] object-cover"
+              className="w-full max-h-[90vh] md:h-[100%] h-[500px] object-cover"
               alt={appName}
             />
           </div>

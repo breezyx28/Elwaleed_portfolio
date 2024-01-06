@@ -9,7 +9,7 @@ import WhatIDo from "./components/sections/WhatIDo";
 
 export default function Home() {
   return (
-    <main className="md:px-[160px] px-[40px] mx-auto w-auto h-auto">
+    <main className="md:px-[160px] px-[20px] mx-auto w-auto h-auto">
       <Hero />
       <About />
       <WhatIDo />

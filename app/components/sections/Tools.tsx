@@ -8,7 +8,7 @@ const Tools = () => {
           <p className="text-primary text-[18px] font-semibold capitalize">
             Tools i use
           </p>
-          <p className="text-black text-5xl font-semibold capitalize">
+          <p className="text-black md:text-5xl text-4xl font-semibold capitalize">
             Work Tools
           </p>
           <div className="flex items-center gap-16 mt-8">

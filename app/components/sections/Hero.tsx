@@ -11,7 +11,7 @@ const Hero = () => {
     >
       <div className="flex">
         <div className="wrapper w-full flex flex-col gap-y-[25px]">
-          <h1 className="text-primary md:text-7xl text-4xl pr-[40px] font-bold w-full">
+          <h1 className="text-primary md:text-6xl text-4xl max-w-[80vw] pr-[40px] font-bold w-full">
             Hey there, I’m Alwaleed Taha
           </h1>
           <div className="flex flex-col gap-y-[20px]">
