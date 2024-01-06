@@ -21,7 +21,10 @@ const Hero = () => {
             </p>
           </div>
           <div className="">
-            <img src="/assets/icons/Arrow.svg" width={150} />
+            <img
+              src="/assets/icons/Arrow.svg"
+              className="md:w-[150px] w-[75px]"
+            />
           </div>
           <div className="flex flex-col gap-y-[16px]">
             <p className="text-primary text-[18px] font-semibold leading-[23.64px]">
