@@ -6,11 +6,11 @@ const Process = () => {
   return (
     <section id="process" className="w-full h-full h-auto mb-[80px]">
       <div className="wrapper flex flex-col gap-y-[28px]">
-        <div className="title flex flex-col gap-y-[16px]">
-          <p className="text-primary text-[18px] font-semibold capitalize">
-            How it works
+        <div className="flex flex-col md:gap-y-[16px] gap-y-[8px]">
+          <p className="text-center md:text-start section-title capitalize">
+            How it works ✍
           </p>
-          <p className="text-black md:text-5xl text-4xl font-semibold capitalize">
+          <p className="text-center md:text-start section-head capitalize">
             My Work Process
           </p>
         </div>

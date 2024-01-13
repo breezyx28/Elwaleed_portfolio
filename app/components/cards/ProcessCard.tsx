@@ -16,14 +16,14 @@ const ProcessCard = ({ title, imgSrc, description }: TProcessProps) => {
           width={50}
           height={50}
           alt="icon"
-          className=""
+          className="md:w-[64px] w-[48px]"
         />
       </div>
       <div className="flex flex-col justify-center items-center gap-y-[8px]">
-        <p className="text-black text-xl font-[600]">
+        <p className="text-black md:text-[32px] text-[24px] font-[500]">
           {title ?? "Shaping planing"}
         </p>
-        <p className="text-black/80 text-[14px] text-center max-w-[300px]">
+        <p className="text-[#252525] text-base text-center font-[400] md:max-w-[300px] max-w-[100%]">
           {description ??
             "I start from UX design process from user research and build a wireframe and prototype and start in UI design."}
         </p>

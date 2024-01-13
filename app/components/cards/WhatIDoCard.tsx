@@ -9,7 +9,7 @@ interface ICardProps {
 
 const WhatIDoCard = ({ description, icon, title }: ICardProps) => {
   return (
-    <div className="flex flex-col gap-y-[22px] items-center">
+    <div className="flex flex-col gap-y-[16px] items-center">
       <div className="icon">
         <Image
           src={icon ?? "/assets/icons/do-1.svg"}

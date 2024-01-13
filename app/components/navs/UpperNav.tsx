@@ -13,9 +13,9 @@ const UpperNav = () => {
   return (
     <div className="upper-nav py-[50px] fixed md:bg-white/70 bg-transparen md:backdrop-blur-md md:border-b border-white mx-auto max-w-[2000px] w-full h-[88px] flex flex-col justify-center z-30">
       <div className="desktop-responsive">
-        <div className="px-[160px] py-[50px] w-full flex justify-between items-center">
+        <div className="px-[200px] py-[50px] w-full flex justify-between items-center">
           <div className="text-4xl text-primary font-[600] leading-[23.64px]">
-            Alwaleed.
+            Alwaleed <span className="text-[#FFA723]">.</span>
           </div>
           <div className="upper-menu">
             <ul className="flex items-center gap-x-[50px]">
@@ -40,8 +40,8 @@ const UpperNav = () => {
       </div>
 
       <div className="mobile-responsive">
-        <div className="text-4xl text-primary font-[600] leading-[23.64px]">
-          Alwaleed.
+        <div className="text-[18px] text-primary font-[600] leading-[23.44px]">
+          Alwaleed <span className="text-[#FFA723]">.</span>
         </div>
         <div
           className={`fixed bg-white shadow-sm ${
@@ -62,8 +62,8 @@ const UpperNav = () => {
                 className="relative top-0 right-0 p-3 text-slate-800"
               >
                 <svg
-                  width={38}
-                  height={38}
+                  width={24}
+                  height={24}
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -138,8 +138,8 @@ const UpperNav = () => {
           }}
         >
           <svg
-            width={38}
-            height={38}
+            width={24}
+            height={24}
             fill="none"
             stroke="currentColor"
             strokeLinecap="round"

@@ -12,13 +12,9 @@ const Clients = () => {
       className="w-full min-h-screen flex flex-col justify-center h-auto"
     >
       <div className="wrapper w-full flex flex-col gap-y-[28px]">
-        <div className="title flex flex-col gap-y-[16px]">
-          <p className="text-primary text-[18px] font-semibold capitalize">
-            clients
-          </p>
-          <p className="text-black md:text-5xl text-4xl font-semibold capitalize">
-            Feedback From My Clients
-          </p>
+        <div className="text-center md:text-start flex flex-col gap-y-[16px]">
+          <p className="section-title capitalize">clients 🔥</p>
+          <p className="section-head capitalize">Feedback From My Clients</p>
         </div>
         <div className="slider w-full px-0">
           <Splide
