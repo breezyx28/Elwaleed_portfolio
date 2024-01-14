@@ -8,9 +8,12 @@ interface IProps {
 
 const SocialmediaLinks = ({ link, icon }: IProps) => {
   return (
-    <div className="md:w-[70px] md:h-[70px] w-[52px] h-[52px] border-2 border-primary rounded-full flex justify-center items-center">
-      <Link href={link}>{icon}</Link>
-    </div>
+    <Link
+      href={link}
+      className="md:w-[70px] md:h-[70px] w-[52px] h-[52px] border-2 border-primary rounded-full flex justify-center items-center"
+    >
+      <div>{icon}</div>
+    </Link>
   );
 };
 

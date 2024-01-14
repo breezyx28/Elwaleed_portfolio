@@ -33,7 +33,7 @@ const About = () => {
               className={`min-w-[200px] md:min-w-[0px] h-full relative group mt-[20px] cursor-pointer`}
             >
               <div
-                className={`absolute bg-[#24f1c0] rounded-[100px] min-w-[200px] h-[50px]`}
+                className={`absolute bg-[#7347FF] rounded-[100px] min-w-[200px] h-[50px]`}
               ></div>
               <div
                 className={`absolute bg-white top-[-5px] left-[-5px] border-2 border-black rounded-[100px] min-w-[200px] h-[50px] flex justify-center items-center group-hover:top-[0px] group-hover:left-[0px] duration-300 ease-in`}

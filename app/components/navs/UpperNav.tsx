@@ -8,10 +8,11 @@ const UpperNav = () => {
   React.useEffect(() => {
     const currentPath = window.location.pathname;
     setActiveLink(currentPath);
+    toggleNavBg();
     handleRouteChange();
   }, []);
   return (
-    <div className="upper-nav py-[50px] fixed md:bg-white/70 bg-transparen md:backdrop-blur-md md:border-b border-white mx-auto max-w-[2000px] w-full h-[88px] flex flex-col justify-center z-30">
+    <div className="upper-nav py-[50px] fixed bg-transparen md:backdrop-blur-md border-white mx-auto max-w-[2000px] w-full h-[88px] flex flex-col justify-center z-30">
       <div className="desktop-responsive">
         <div className="px-[200px] py-[50px] w-full flex justify-between items-center">
           <div className="text-4xl text-primary font-[600] leading-[23.64px]">
@@ -198,4 +199,30 @@ const handleRouteChange = () => {
       item.classList?.replace("text-white", "text-slate-800")
     );
   }
+};
+
+const toggleNavBg = () => {
+  let nav = document.querySelector(".upper-nav");
+
+  const scrollAmount = 10; // The amount of pixels to scroll down before toggling the class
+  const classes = ["md:border-b", "md:bg-white/70"];
+  function toggleClassOnScroll() {
+    if (window.scrollY <= scrollAmount) {
+      classes.forEach((className) => {
+        nav!.classList.add(className);
+      });
+      classes.forEach((className) => {
+        nav!.classList.remove(className);
+      });
+    } else {
+      classes.forEach((className) => {
+        nav!.classList.remove(className);
+      });
+      classes.forEach((className) => {
+        nav!.classList.add(className);
+      });
+    }
+  }
+
+  window.addEventListener("scroll", toggleClassOnScroll);
 };

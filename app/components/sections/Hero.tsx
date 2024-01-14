@@ -10,7 +10,8 @@ const Hero = () => {
       id="hero"
       className="w-full h-[calc(100vh-140px)] flex flex-col gap-y-[40px] justify-center"
     >
-      <div className="flex">
+      <div className="absolute hero-grad top-0 left-0 z-0"></div>
+      <div className="flex z-10">
         <div className="wrapper w-full flex flex-col items-center md:items-start gap-y-[25px]">
           <h1 className="text-primary text-center md:text-start md:text-[80px] text-[28px] md:max-w-[80vw] max-w-[100vw] md:pr-[40px] pr-[0px] md:font-[500] font-[600]">
             Hey there, I’m Alwaleed Taha
@@ -45,7 +46,7 @@ const Hero = () => {
             </p>
             <div className="flex items-center gap-[16px]">
               <SocialmediaLinks
-                link={"#"}
+                link={"https://www.behance.net/alwaleedtaha"}
                 icon={
                   <Be
                     size="24"
@@ -55,7 +56,7 @@ const Hero = () => {
                 }
               />
               <SocialmediaLinks
-                link={"#"}
+                link={"https://dribbble.com/Alwaleed-Taha"}
                 icon={
                   <Dribbble
                     size="24"
@@ -65,7 +66,7 @@ const Hero = () => {
                 }
               />
               <SocialmediaLinks
-                link={"#"}
+                link={"https://www.linkedin.com/in/alwaleed-taha-92248b217/"}
                 icon={<span className="text-primary md:text-[24px]">in</span>}
               />
             </div>
