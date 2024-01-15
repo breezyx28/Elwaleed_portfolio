@@ -14,7 +14,7 @@ const UpperNav = () => {
   return (
     <div className="upper-nav py-[50px] fixed bg-transparen md:backdrop-blur-md border-white mx-auto max-w-[2000px] w-full h-[88px] flex flex-col justify-center z-30">
       <div className="desktop-responsive">
-        <div className="px-[200px] py-[50px] w-full flex justify-between items-center">
+        <div className="px-[150px] py-[50px] w-full flex justify-between items-center">
           <div className="text-4xl text-primary font-[600] leading-[23.64px]">
             Alwaleed <span className="text-[#FFA723]">.</span>
           </div>
