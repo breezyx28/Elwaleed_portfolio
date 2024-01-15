@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="w-full h-[calc(100vh-140px)] flex flex-col justify-center"
+      className="w-full min-h-screen flex flex-col justify-center"
     >
       <div className="absolute hero-grad top-0 left-0 z-0"></div>
       <div className="flex z-10">

@@ -3,8 +3,8 @@ import PrimaryBtn from "../buttons/PrimaryBtn";
 
 const About = () => {
   return (
-    <section id="about-me" className="w-full md:h-screen h-auto">
-      <div className="wrapper h-full w-full flex md:flex-row flex-col items-center md:gap-[200px] gap-[80px] border-b-2">
+    <section id="about-me" className="w-full h-auto yb-[40px]">
+      <div className="wrapper h-full w-full flex md:flex-row flex-col items-center md:gap-[200px] gap-[80px]">
         <div className="block-wrapper relative md:w-[580px] md:h-[580px] w-[294px] h-[294px]">
           <div className="absolute bg-[#7347FF] w-full h-full bottom-[-10px] right-[-10px]"></div>
           <img
