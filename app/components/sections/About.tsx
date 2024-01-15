@@ -1,5 +1,4 @@
 import React from "react";
-import PrimaryBtn from "../buttons/PrimaryBtn";
 
 const About = () => {
   return (

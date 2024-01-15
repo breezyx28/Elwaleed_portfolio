@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="absolute hero-grad top-0 left-0 z-0"></div>
       <div className="flex z-10">
         <div className="wrapper w-full flex flex-col justify-center items-center md:items-start gap-y-[28px]">
-          <p className="text-primary text-center md:text-start md:text-[80px] text-[28px] md:max-w-[80vw] max-w-[100vw] md:pr-[40px] pr-[0px] md:font-[500] font-[600]">
+          <p className="text-primary text-center md:text-start md:text-[80px] text-[28px] md:max-w-[70vw] max-w-[100vw] md:pr-[40px] pr-[0px] md:font-[500] font-[600]">
             Hey there, I’m Alwaleed Taha
           </p>
           <div className="flex flex-col gap-y-[20px]">
