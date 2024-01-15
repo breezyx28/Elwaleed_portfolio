@@ -8,14 +8,6 @@ const Contacts = () => {
     <section id="contacts" className="w-full min-h-[50vh] h-auto mb-[40px]">
       <div className="wrapper bg-[#F3EFFF] flex md:flex-row flex-col justify-between rounded-[12px]">
         <div className="contact-info flex flex-col gap-y-[40px] md:px-[48px] px-[16px] md:py-[48px] py-[24px]">
-          {/* <div className="title flex flex-col gap-y-[16px]">
-            <p className="text-primary text-[18px] font-semibold capitalize">
-              Get in touch
-            </p>
-            <p className="text-black md:text-5xl text-4xl font-semibold capitalize">
-              Contact Me
-            </p>
-          </div> */}
           <div className="flex flex-col gap-y-[32px]">
             <ContactCard
               icon={<Message2 size={24} color="#7347FF" />}
@@ -37,7 +29,7 @@ const Contacts = () => {
         <div className="contact-form p-[16px] md:p-[48px]">
           <form
             action="/"
-            className="bg-[#7347FF] mx-auto md:min-w-[500px] w-full md:px-[80px] px-[16px] md:pt-[24px] md:pb-[32px] pb-[16px] pt-[16px] rounded-[8px] flex flex-col md:gap-y-[24px] gap-y-[12px]"
+            className="bg-[#7347FF] mx-auto md:min-w-[400px] w-full md:px-[80px] px-[16px] md:pt-[24px] md:pb-[32px] pb-[16px] pt-[16px] rounded-[8px] flex flex-col md:gap-y-[24px] gap-y-[12px]"
           >
             <h1 className="text-center text-white md:text-[68px] text-[32px] font-[500]">
               Contact Me

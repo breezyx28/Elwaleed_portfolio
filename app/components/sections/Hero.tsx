@@ -8,16 +8,16 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="w-full h-[calc(100vh-140px)] flex flex-col gap-y-[40px] justify-center"
+      className="w-full h-[calc(100vh-140px)] flex flex-col justify-center"
     >
       <div className="absolute hero-grad top-0 left-0 z-0"></div>
       <div className="flex z-10">
-        <div className="wrapper w-full flex flex-col items-center md:items-start gap-y-[25px]">
+        <div className="wrapper w-full flex flex-col justify-center items-center md:items-start gap-y-[28px]">
           <h1 className="text-primary text-center md:text-start md:text-[80px] text-[28px] md:max-w-[80vw] max-w-[100vw] md:pr-[40px] pr-[0px] md:font-[500] font-[600]">
             Hey there, I’m Alwaleed Taha
           </h1>
           <div className="flex flex-col gap-y-[20px]">
-            <p className="md:text-3xl text-center md:text-start text-[18px] text-black/80 font-[400] md:max-w-[50%] max-w-[100%] md:leading-[46px] leading-[28.66px]">
+            <p className="md:text-[32px] text-center md:text-start text-[18px] text-black font-[400] md:max-w-[80%] max-w-[100%] md:leading-[46px] leading-[28.66px]">
               i’m a product designer, Bringing your ideas to live through the
               design 🎨{" "}
             </p>
@@ -37,11 +37,11 @@ const Hero = () => {
           <div className="">
             <img
               src="/assets/icons/Arrow.svg"
-              className="md:w-[150px] w-[75px]"
+              className="md:w-[140px] w-[52px]"
             />
           </div>
           <div className="flex flex-col gap-y-[16px]">
-            <p className="text-primary text-center md:text-start text-[18px] font-semibold leading-[23.64px]">
+            <p className="section-title text-center md:text-start">
               follow me on
             </p>
             <div className="flex items-center gap-[16px]">

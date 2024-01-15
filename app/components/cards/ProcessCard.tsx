@@ -9,7 +9,7 @@ type TProcessProps = {
 
 const ProcessCard = ({ title, imgSrc, description }: TProcessProps) => {
   return (
-    <div className="md:max-w-[400px] max-w-[1000px] h-auto flex flex-col justify-center items-center gap-[28px] md:py-[80px] py-[20px]">
+    <div className="md:max-w-[400px] max-w-[1000px] h-auto flex flex-col justify-center items-center gap-[28px]">
       <div className="">
         <Image
           src={imgSrc ?? "/assets/icons/two-boxes.svg"}

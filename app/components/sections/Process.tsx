@@ -5,7 +5,7 @@ import ProcessCard from "../cards/ProcessCard";
 const Process = () => {
   return (
     <section id="process" className="w-full h-full h-auto mb-[80px]">
-      <div className="wrapper flex flex-col gap-y-[28px]">
+      <div className="wrapper flex flex-col md:gap-y-[52px] gap-y-[32px]">
         <div className="flex flex-col md:gap-y-[16px] gap-y-[8px]">
           <p className="text-center md:text-start section-title capitalize">
             How it works ✍
