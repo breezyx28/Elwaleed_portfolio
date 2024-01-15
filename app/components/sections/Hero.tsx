@@ -17,7 +17,7 @@ const Hero = () => {
             Hey there, I’m Alwaleed Taha
           </h1>
           <div className="flex flex-col gap-y-[20px]">
-            <p className="md:text-[32px] text-center md:text-start text-[18px] text-black font-[400] md:max-w-[80%] max-w-[100%] md:leading-[46px] leading-[28.66px]">
+            <p className="md:text-[32px] text-center md:text-start text-[18px] text-black font-[400] md:max-w-[70%] max-w-[100%] md:leading-[46px] leading-[28.66px]">
               i’m a product designer, Bringing your ideas to live through the
               design 🎨{" "}
             </p>
