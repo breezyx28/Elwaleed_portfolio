@@ -14,7 +14,7 @@ const Process = () => {
             My Work Process
           </p>
         </div>
-        <div className="h-full w-full grid md:grid-cols-3 grid-cols-1 md:gap-[32px] gap-[0px]">
+        <div className="h-full w-full grid md:grid-cols-3 grid-cols-1 md:gap-[32px] gap-y-[40px]">
           <ProcessCard />
           <ProcessCard imgSrc="/assets/icons/resize.svg" />
           <ProcessCard imgSrc="/assets/icons/do-3.svg" />

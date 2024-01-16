@@ -6,9 +6,10 @@ type TClientCard = {
   text: string;
   position: string;
   name: string;
+  img?: string;
 };
 
-const ClientCard = ({ text, position, name }: TClientCard) => {
+const ClientCard = ({ text, position, name, img }: TClientCard) => {
   return (
     <div className="bg-[#F7FAFF] rounded-[20px] w-full md:h-[566px] h-[408px] flex flex-col justify-between md:px-[50px] px-[16px] md:py-[50px] py-[20px]">
       <div className="flex flex-col md:gap-y-[28px] gap-y-[12.85px]">
@@ -22,7 +23,14 @@ const ClientCard = ({ text, position, name }: TClientCard) => {
       <div className="flex items-center gap-x-[12px]">
         <div className="photo rounded-full md:w-[100px] w-[48px] md:h-[100px] h-[48px] bg-[#5f58f7] flex justify-center items-center">
           <p className="text-white md:text-[32px] text-[18px] font-[700]">
-            {PersonNameInitials(name)}
+            {img ? (
+              <img
+                src={img}
+                className="rounded-full md:w-[100px] w-[48px] md:h-[100px] h-[48px]"
+              />
+            ) : (
+              PersonNameInitials(name)
+            )}
           </p>
         </div>
         <div className="flex flex-col justify-center md:gap-y-[12px] gap-y-[4px]">

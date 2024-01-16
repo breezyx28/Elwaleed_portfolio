@@ -55,6 +55,16 @@ const Clients = () => {
                   text={"Passionate designer with great skills"}
                   name="Mohammed Elmojtaba Faraj"
                   position="Software Engineer"
+                  img="/assets/images/profile/client-1.png"
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <ClientCard
+                  text={
+                    "Alwaleed is talented UIUX designer with excellent aesthetic and good experience creating wireframe design for website and mobile, he is easy to work with and doesn’t hesitate to Promote his ideas to improve customer"
+                  }
+                  name="Wely Qamer"
+                  position="Web Developer"
                 />
               </SplideSlide>
             </SplideTrack>

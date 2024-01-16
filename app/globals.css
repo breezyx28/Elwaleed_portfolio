@@ -4,10 +4,10 @@
 
 @layer components {
   .section-title {
-    @apply text-primary md:text-[24px] text-[18px] font-[500] md:leading-[37.33px] leading-[27.994px];
+    @apply text-primary md:text-[22px] text-[18px] font-[500] md:leading-[37.33px] leading-[27.994px];
   }
   .section-head {
-    @apply text-black md:text-[68px] text-[32px] font-[500] md:leading-[71.54px] leading-[33.664px];
+    @apply text-black md:text-[50px] text-[32px] font-[500] md:leading-[71.54px] leading-[33.664px];
   }
   .upper-nav-links {
     @apply text-black/80 text-[17px] font-[600] leading-[23.64px] capitalize;
