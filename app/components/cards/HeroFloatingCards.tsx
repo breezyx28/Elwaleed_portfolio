@@ -31,7 +31,7 @@ const switchType = ({ text, type }: TFloatingCardProps) => {
       return (
         <>
           <div className="absolute w-full h-full rounded-[12px] border-4 border-indigo-500"></div>
-          <div className="absolute w-full h-full top-[20px] right-[-20px] rounded-[12px] bg-violet-50 flex items-center justify-center text-center p-[10px] text-black font-[500]">
+          <div className="absolute w-full h-full top-[20px] right-[-20px] rounded-[12px] bg-[#DEDDFF] flex items-center justify-center text-center p-[10px] text-black font-[500]">
             <p>{text}</p>
           </div>
         </>

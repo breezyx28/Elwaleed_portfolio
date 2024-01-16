@@ -80,7 +80,7 @@ const Hero = () => {
           />
           <HeroFloatingCards
             type="yellow"
-            text="+3 Years Experience"
+            text="+4 Years Experience"
             position="top-[250px] right-[200px]"
           />
         </div>

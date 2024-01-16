@@ -11,7 +11,7 @@ const About = () => {
             className="absolute w-full h-full bg-slate-900"
           />
         </div>
-        <div className="flex flex-col md:items-start items-center md:gap-y-[20px] gap-y-[12px]">
+        <div className="flex flex-col md:items-start items-center md:gap-y-[16px] gap-y-[12px]">
           <div className="section-title text-center md:text-start capitalize">
             who I am 🙂
           </div>
@@ -22,8 +22,8 @@ const About = () => {
             className="mt-[-14px] md:w-[250px] w-[143px]"
           />
           <p className="text-center md:text-start md:text-sm text-base font-[400] text-black md:max-w-[500px] max-w-[100%]">
-            I’m a product designer based in Khartoum, Sudan with +3 experience
-            in delivering end to end UX/UI design for software products. I’m
+            I’m a product designer based in Khartoum, Sudan with 4+ experience
+            in delivering end-to-end UX/UI design for software products. I’m
             passionate about improving the lives of others through design and
             I’m constantly looking to learn new things everyday.
           </p>
